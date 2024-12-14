@@ -1,3 +1,15 @@
+function chk()
+{
+    let code=prompt("Enter the secret code:");
+    if(code=="janshi"){
+        alert("Welcome ");
+    }
+    else
+    {
+        window.close();
+    }
+}
+
 // trigger to play music in the background with sweetalert
 window.addEventListener('load', () => {
     Swal.fire({
