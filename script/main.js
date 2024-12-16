@@ -1,12 +1,13 @@
 function chk()
 {
-    let code=prompt("Enter the secret code:");
-    if(code=="janshi"){
+    let code=prompt("Areyy Areyy, itni bhi kya jaldi hai?\n\nJra iska Jawab to di jiye...\n\nकैलेंडर में छिपा है इसका नाम,\nयादों में बसा इसका काम।\nजब पहली बार मिली थी वो नजर,\nदिल में गूंजा था एक नया असर।\n\n")==="191022");
+    if(code=="191022"){
         alert("Welcome ");
     }
     else
     {
-        window.close();
+        let new_window =open(location, '_self');
+        new_window.close();
     }
 }
 
